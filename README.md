@@ -1,6 +1,23 @@
 # HydraStart
-Simple yet useful and customized restarter plugin, For your pocketmine server!
+Simple yet useful restarter plugin for your Minecraft PE server [PocketMine-MP] !
 
-> In production of play.hydrape.us:19132
+## Features
 
-> Will be published in future
+> Auto reconnecter [Makes player(s) automatically rejoin **beta**]
+
+> CountDown system
+
+> Fully customizeable messages
+
+> No overloading
+
+# Branches
+
+> This copy of HydraStart was tested and works on **TSP** , **Tesseract**, and those softwares who aren't latest fork of PocketMine-MP
+
+> Go to **PocketMine** branch of this repo to get this working on other softwares also
+
+## Addotional info:
+> My Twitter: @TheAz928
+
+> Server: play.hydrape.us:19132 [Beta]
