@@ -13,9 +13,7 @@ Simple yet useful restarter plugin for your Minecraft PE server [PocketMine-MP] 
 
 # Branches
 
-> This copy of HydraStart was tested and works on **TSP** , **Tesseract**, and those softwares who aren't latest fork of PocketMine-MP
-
-> Go to **PocketMine** branch of this repo to get this working on other softwares also
+> This branch doesn't support **Tesseract** **TSP**, use **master** branch for those
 
 ## Addotional info:
 > My Twitter: @TheAz928
