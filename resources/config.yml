@@ -1,1 +1,19 @@
+---
+# Developed by Az928
+# Restarter time (in minutes)
+restart.time: 60
 
+# Countdown starting time (for seconds)
+countdown.time: 30
+
+# Message before last * seconds of restart
+restart.msg: "&l||&r&7 Restarting in &e{time} minutes"
+
+# Message at server close
+close.msg: "§aServer has been restarted!"
+
+# Enable reconnector
+# Recommended​ to stay "false", may not work sometimes
+reconnector: false
+
+...
