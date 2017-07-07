@@ -50,7 +50,7 @@ class Core extends PluginBase{
 		}
 	   foreach($players as $player){
 		  if($this->getSettings("reconnector") == true){
-	      $pk = new \pocketmine\network\protocol\TransferPacket();
+	      $pk = new \pocketmine\network\mcpe\protocol\TransferPacket();
 	      $pk->address = $this->getServer()->getIp();
 	      $pk->port = $this->getServer()->getPort();
 	      $player->dataPacket($pk);
