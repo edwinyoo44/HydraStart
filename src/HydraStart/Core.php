@@ -36,7 +36,7 @@ class Core extends PluginBase{
 	     self::$instance = $this;
 	     self::$timer = new Tasks\RestartTask($this->getSettings("restart.time") * 60);
 	     $this->getServer()->getScheduler()->scheduleRepeatingTask(self::$timer, 20);
-        $this->getServer()->getScheduler()->scheduleRepeatingTask(new Tasks\CountDown(), 20 * 60);
+        $this->getServer()->getScheduler()->scheduleRepeatingTask(new Tasks\CountDown(), 20 * 60 * 5);
 	}
 	
 	public static function getInstance(){
